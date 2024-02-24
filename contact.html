@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="general.css"> <!-- Link to external CSS file -->
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar px-4 lg:px-6 h-14 flex items-center bg-white shadow-md">
+    <!-- logo -->
+    <a class="flex items-center justify-center" href="home.html" rel="ugc">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-rose"><path d="m8 3 4 8 5-5 5 15H2L8 3z"></path></svg>
+      <span class="sr-only">Acme Inc</span>
+    </a>
+    <nav class="ml-auto flex gap-4 sm:gap-6">
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="/dashboard.html" rel="ugc">Dashboard</a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="cart-page.html" rel="ugc">Shopping</a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="investment-page.html" rel="ugc">Invest</a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="contact.html" rel="ugc">Contact</a>
+    </nav>
+  </header>
+
+  <div class="header-content">
+    <h1 class="mt-5 text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mx-auto text-center">Contact Us</h1>
+  </div>
+
+  <!-- Body -->
+<div class="container">
+  <form id="contact-form" action="#" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <span id="username-error" class="error-message"></span>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <span id="email-error" class="error-message"></span>
+    </div>
+    <div class="form-group">
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image" accept="image/*" required>
+      <span id="image-error" class="error-message"></span>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <span id="message-error" class="error-message"></span>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Send Message">
+    </div>
+  </form>
+  <div id="notification" class="notification"></div>
+  <div id="warning" class="warning-message"></div>
+</div>
+<div class="container">
+  <h2>Sent Messages</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Status</th> <!-- New column for status -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>JohnDoe</td>
+        <td>johndoe@example.com</td>
+        <td class="pending">Pending</td> <!-- Status is pending -->
+      </tr>
+      <!-- Add more rows for additional messages -->
+    </tbody>
+  </table>
+</div>
+
+<!-- Footer -->
+<div class="bg-gray-950 text-white">
+  <div class="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+    <p class="text-sm text-gray-500 justify-self/end dark:text-gray-400">
+      © 2024 Crown Wave Adverts. All rights reserved.
+    </p>
+    <nav class="flex flex-col gap-2 md:flex-row md:gap-4">
+      <a class="text-sm text-gray-300 transition-colors hover:underline dark:hover:underline-accents" href="home.html">
+        Home
+      </a>
+      <a class="text-sm text-gray-300 transition-colors hover:underline dark:hover:underline-accents" href="cart-page.html">
+        Services
+      </a>
+      <a class="text-sm text-gray-300 transition-colors hover:underline dark:hover:underline-accents" href="contact.html">
+        Contact Us
+      </a>
+      <a class="text-sm text-gray-300 transition-colors hover:underline dark:hover:underline-accents" href="dashboard.html">
+        About Us
+      </a>
+    </nav>
+  </div>
+</div>
+<script src="contact.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #c23616; /* Redish heading color */
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #c23616; /* Redish label color */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #c23616; /* Redish submit button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #a82b13; /* Darker redish hover color */
+}
+
+.error-message {
+    color: #c23616; /* Redish error message color */
+}
+
+.notification {
+    background-color: #4CAF50; /* Redish notification background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    border-radius: 5px;
+}
+
+.warning-message {
+    background-color: #e74c3c; /* Redish warning message background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  .pending {
+    color: orange; /* Display pending status in orange */
+  }
+  .success {
+    color: green; /* Display success status in green */
+  }
+  .cancelled {
+    color: red; /* Display cancelled status in red */
+  }
+  @media (max-width: 768px) {
+   
+  }

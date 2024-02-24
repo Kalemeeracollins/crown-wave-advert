@@ -1,0 +1,39 @@
+.product {
+    background-color: #ffcccc; /* Light Reddish background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product h2 {
+    margin-top: 10px;
+    color: #660000; /* Dark Reddish text */
+  }
+  
+  .product p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #660000; /* Dark Reddish text */
+  }
+  
+  .product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #990000; /* Dark Reddish button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #cc0000; /* Darker Reddish button on hover */
+  }
+  

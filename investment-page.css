@@ -1,0 +1,24 @@
+    .investment-header{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .container {
+    /* max-width: 100%; */
+    margin: 0 auto;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .package {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .package h2 {
+    text-align: center;
+    color: #333;
+  }
+  .package p {
+    text-align: center;
+  }

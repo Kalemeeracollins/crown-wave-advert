@@ -1,0 +1,226 @@
+/* <span style="font-family: verdana, geneva, sans-serif;">/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700"); */
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header{
+  margin-top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+}
+.closebtn{
+  display: flex;
+}
+.logo{
+  width: 50px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+.material-symbols-outlined{
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.container{
+  display: flex;
+    max-width: 100%;
+    height: auto;
+}
+nav{
+  display: none;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 80vh;
+  left: 0;
+  background: #fff;
+  width: 200px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+nav .toggle {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav .toggle {
+    display: block;
+  }
+  
+  nav {
+    display: none;
+  }
+
+   nav .menu.active {
+    display: block;
+  }
+}
+nav .sidebar a span{
+  transition: all 300ms ease;
+}
+nav .sidebar a:hover span{
+  margin-left: 1rem;
+}
+.logo{
+  text-align: center;
+  display: flex;
+}
+.logo img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 150px;
+  padding: 5px;
+}
+nav .fas{
+  position: relative;
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+}
+a:hover{
+  background: #eee;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+/* Main Section */
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  margin-top: 20px;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+.main-details{
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  
+}
+.main-details .card{
+  width: 35%;
+  margin: 10px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.main-details .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-details .card p{
+  font-size: 12px;
+}
+.main-details .card button{
+  background: orangered;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.main-details .card button:hover{
+  background: rgba(223, 70, 15, 0.856);
+}
+.main-details .card i{
+  font-size: 22px;
+  padding: 10px;
+}
+/* Courses */
+.main-course{
+  margin-top:20px ;
+  text-transform: capitalize;
+}
+.account_details{
+  width: 100%;
+  height: 300px;
+  padding: 10px 10px 30px 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.account_details ul{
+  list-style: none;
+  display: flex;
+}
+.account_details ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.account_details ul .active{
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.account_details .course{
+  display: flex;
+}
+.box{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  border-radius: 10px;
+}
+.user_details{
+  margin-left: 10px;
+}
+.box p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.box button{
+  background: #000;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.box button:hover{
+  background: rgba(0, 0, 0, 0.842);
+}
+

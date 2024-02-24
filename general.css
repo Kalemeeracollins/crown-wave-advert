@@ -1,0 +1,28 @@
+
+/* Custom styles */
+    /* Replace colors with rose-like theme */
+    :root {
+        --rose: #FF3366;
+        --rose-dark: #9B2C2C;
+        --rose-light: #FEC8D8;
+        --rose-lighter: #FFEBF2;
+        --text-primary: #4A5568;
+        --text-secondary: #718096;
+      }
+  
+      body {
+        background-color: var(--rose-lighter);
+        color: var(--text-primary);
+        overflow-x: hidden;
+      }
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+      }
+      .header-content{
+        margin-top: 60px;
+        padding-bottom: 20px;
+      }
